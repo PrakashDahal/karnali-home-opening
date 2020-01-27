@@ -3,8 +3,7 @@ $green: #025026;
 .container {
   text-align: center;
   width: 100%;
-  height: 100%;
-  padding-top: 50px;
+  padding-top: 70px;
 
   .logo {
     width: 250px;
@@ -37,7 +36,7 @@ $green: #025026;
     font-weight: bold;
   }
   .flex-container {
-    margin: auto;
+    margin: 150px 0;
     height: 50%;
 
     .right-side {
@@ -61,44 +60,86 @@ $green: #025026;
   }
 }
 
-@media (max-width: 800px) {
-  .container {
-    h3 {
-      font-size: 3em;
-    }
-
-    h4 {
-      font-size: 2em;
-    }
-    p {
-    }
-  }
-}
-
-@media (max-width: 572px) {
-  .container {
-    h3 {
-      font-size: 2em;
-    }
-
-    h4 {
-      font-size: 1.5em;
-    }
-    p {
-      font-size: 1em;
-    }
-  }
-}
-
 @media (max-width: 1300px) {
   .container {
+    margin-top: 40px;
     .flex-container {
+      margin: 5px 0;
       .right-side,
       .middle-side {
         text-align: center;
       }
       .right-side {
-        margin-top: 300px;
+        margin-top: 20px;
+      }
+    }
+    .footer {
+      margin-top: 10px !important;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .container {
+      margin-top: 20px;
+      h3 {
+        font-size: 3em;
+      }
+
+      h4 {
+        font-size: 2em;
+      }
+      .right-side,
+      .middle-side {
+        p,
+        span {
+          font-size: 1.7em;
+        }
+      }
+      .footer {
+        padding: 10px;
+        .contact {
+          margin-top: 5px;
+          font-size: 1.3em;
+          display: block;
+          .material-icons {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 572px) {
+    .container {
+      margin-top: 5px;
+
+      h3 {
+        font-size: 2em;
+      }
+
+      h4 {
+        font-size: 1.5em;
+      }
+      .right-side,
+      .middle-side {
+        p,
+        span {
+          font-size: 1.4em;
+        }
+      }
+      .footer {
+        padding: 10px;
+        span {
+          font-size: 1.2em;
+        }
+        .contact {
+          margin-top: 5px;
+          font-size: 0.8em;
+          display: block;
+          .material-icons {
+            font-size: 18px;
+          }
+        }
       }
     }
   }

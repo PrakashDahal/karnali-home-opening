@@ -62,7 +62,7 @@ $karnali-home-opening-theme: mat-light-theme(
 
 html,
 body {
-  height: 100%;
+  height: auto !important;
 }
 
 body {
@@ -76,8 +76,8 @@ body {
   position: fixed;
   left: 50%;
   top: 50%;
-  width: 0.8vw;
-  height: 0.8vw;
+  width: 1.5vw;
+  height: 1.5vw;
   margin: -0.2vw 0 0 9.8vw;
   animation: ease 200s alternate infinite;
   pointer-events: none;
