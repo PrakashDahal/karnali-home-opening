@@ -50,6 +50,15 @@ $green: #025026;
       text-align: center;
     }
   }
+  .footer {
+    background-color: #025026;
+    padding: 20px;
+
+    .contact {
+      color: #fff;
+      margin-left: 20px;
+    }
+  }
 }
 
 @media (max-width: 800px) {
