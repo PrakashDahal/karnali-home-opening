@@ -30,12 +30,12 @@ body {
   transform-origin: -10vw;
 }
 .firefly::before {
-  background: rgb(255, 0, 0);
+  background: maroon;
   opacity: 0.4;
   animation: drift ease alternate infinite;
 }
 .firefly::after {
-  background: orange;
+  background: blue;
   opacity: 0;
   box-shadow: 0 0 0vw 0vw orangered;
   animation: drift ease alternate infinite, flash ease infinite;
@@ -407,12 +407,12 @@ body {
   76.9230769231% {
     transform: translateX(11vw) translateY(-6vh) scale(0.32);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: greenyellow;
   }
   80.7692307692% {
     transform: translateX(41vw) translateY(-37vh) scale(0.37);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: white;
   }
   84.6153846154% {
     transform: translateX(9vw) translateY(49vh) scale(0.71);
@@ -1128,27 +1128,27 @@ body {
   4.5454545455% {
     transform: translateX(-1vw) translateY(22vh) scale(0.62);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: grey;
   }
   9.0909090909% {
     transform: translateX(19vw) translateY(-7vh) scale(0.38);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: aqua;
   }
   13.6363636364% {
     transform: translateX(-5vw) translateY(-2vh) scale(0.4);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: white;
   }
   18.1818181818% {
     transform: translateX(26vw) translateY(17vh) scale(0.88);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: gold;
   }
   22.7272727273% {
     transform: translateX(6vw) translateY(-18vh) scale(0.77);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: orange;
   }
   27.2727272727% {
     transform: translateX(-27vw) translateY(-49vh) scale(0.48);
@@ -1163,22 +1163,22 @@ body {
   36.3636363636% {
     transform: translateX(16vw) translateY(20vh) scale(0.33);
     border-radius: 50%;
-    background-color: orange;
+    background-color: gold;
   }
   40.9090909091% {
     transform: translateX(-42vw) translateY(-34vh) scale(0.92);
     border-radius: 50%;
-    background-color: orange;
+    background-color: gold;
   }
   45.4545454545% {
     transform: translateX(9vw) translateY(27vh) scale(0.77);
     border-radius: 50%;
-    background-color: orange;
+    background-color: gold;
   }
   50% {
     transform: translateX(-39vw) translateY(6vh) scale(0.67);
     border-radius: 50%;
-    background-color: orange;
+    background-color: gold;
   }
   54.5454545455% {
     transform: translateX(6vw) translateY(-45vh) scale(0.65);
@@ -1218,17 +1218,17 @@ body {
   86.3636363636% {
     transform: translateX(-49vw) translateY(5vh) scale(0.51);
     border-radius: 50%;
-    background-color: crimson;
+    background-color: blue;
   }
   90.9090909091% {
     transform: translateX(-36vw) translateY(37vh) scale(0.37);
     border-radius: 50%;
-    background-color: crimson;
+    background-color: blue;
   }
   95.4545454545% {
     transform: translateX(-26vw) translateY(-47vh) scale(0.7);
     border-radius: 50%;
-    background-color: crimson;
+    background-color: blue;
   }
   100% {
     transform: translateX(20vw) translateY(-6vh) scale(0.42);
@@ -1320,12 +1320,12 @@ body {
   66.6666666667% {
     transform: translateX(-44vw) translateY(-41vh) scale(0.57);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: rosybrown;
   }
   71.4285714286% {
     transform: translateX(-48vw) translateY(17vh) scale(0.55);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: cyan;
   }
   76.1904761905% {
     transform: translateX(35vw) translateY(36vh) scale(0.3);
@@ -1335,7 +1335,7 @@ body {
   80.9523809524% {
     transform: translateX(-42vw) translateY(42vh) scale(0.32);
     border-radius: 50%;
-    background-color: maroon;
+    background-color: forestgreen;
   }
   85.7142857143% {
     transform: translateX(49vw) translateY(-40vh) scale(0.29);
@@ -1373,7 +1373,6 @@ body {
   0% {
     transform: translateX(22vw) translateY(11vh) scale(0.26);
     border-radius: 50%;
-    background-color: blueviolet;
   }
   4% {
     transform: translateX(-23vw) translateY(34vh) scale(0.36);
@@ -1443,7 +1442,7 @@ body {
   56% {
     transform: translateX(18vw) translateY(-29vh) scale(0.7);
     border-radius: 50%;
-    background-color: orangered;
+    background-color: darkslategrey;
   }
   60% {
     transform: translateX(-3vw) translateY(-21vh) scale(0.85);
@@ -1458,12 +1457,12 @@ body {
   68% {
     transform: translateX(-31vw) translateY(35vh) scale(0.77);
     border-radius: 50%;
-    background-color: orangered;
+    background-color: green;
   }
   72% {
     transform: translateX(2vw) translateY(-35vh) scale(0.54);
     border-radius: 50%;
-    background-color: orangered;
+    background-color: green;
   }
   76% {
     transform: translateX(-26vw) translateY(-9vh) scale(0.55);
@@ -1566,7 +1565,7 @@ body {
   45.4545454545% {
     transform: translateX(23vw) translateY(-16vh) scale(0.34);
     border-radius: 50%;
-    background-color: crimson;
+    background-color: greenyellow;
   }
   50% {
     transform: translateX(-36vw) translateY(41vh) scale(0.84);
@@ -1591,7 +1590,7 @@ body {
   68.1818181818% {
     transform: translateX(-8vw) translateY(29vh) scale(0.27);
     border-radius: 50%;
-    background-color: orangered;
+    background-color: green;
   }
   72.7272727273% {
     transform: translateX(-16vw) translateY(43vh) scale(0.28);
@@ -1699,17 +1698,17 @@ body {
   52.1739130435% {
     transform: translateX(-17vw) translateY(16vh) scale(0.63);
     border-radius: 50%;
-    background-color: crimson;
+    background-color: blue;
   }
   56.5217391304% {
     transform: translateX(-24vw) translateY(1vh) scale(0.26);
     border-radius: 50%;
-    background-color: crimson;
+    background-color: blue;
   }
   60.8695652174% {
     transform: translateX(11vw) translateY(-43vh) scale(0.8);
     border-radius: 50%;
-    background-color: crimson;
+    background-color: blue;
   }
   65.2173913043% {
     transform: translateX(36vw) translateY(-31vh) scale(0.98);
@@ -1744,12 +1743,12 @@ body {
   91.3043478261% {
     transform: translateX(29vw) translateY(-47vh) scale(0.42);
     border-radius: 50%;
-    background-color: orangered;
+    background-color: white;
   }
   95.652173913% {
     transform: translateX(-44vw) translateY(-13vh) scale(0.38);
     border-radius: 50%;
-    background-color: orangered;
+    background-color: white;
   }
   100% {
     transform: translateX(48vw) translateY(38vh) scale(0.62);
@@ -1807,12 +1806,12 @@ body {
   36.8421052632% {
     transform: translateX(41vw) translateY(-5vh) scale(0.73);
     border-radius: 50%;
-    background-color: crimson;
+    background-color: darkviolet;
   }
   42.1052631579% {
     transform: translateX(31vw) translateY(-48vh) scale(0.37);
     border-radius: 50%;
-    background-color: crimson;
+    background-color: wheat;
   }
   47.3684210526% {
     transform: translateX(-32vw) translateY(-35vh) scale(0.98);
@@ -1822,12 +1821,12 @@ body {
   52.6315789474% {
     transform: translateX(-32vw) translateY(-39vh) scale(0.63);
     border-radius: 50%;
-    background-color: orangered;
+    background-color: white;
   }
   57.8947368421% {
     transform: translateX(19vw) translateY(25vh) scale(0.54);
     border-radius: 50%;
-    background-color: orangered;
+    background-color: white;
   }
   63.1578947368% {
     transform: translateX(-23vw) translateY(7vh) scale(0.43);
@@ -1837,7 +1836,7 @@ body {
   68.4210526316% {
     transform: translateX(-37vw) translateY(22vh) scale(0.78);
     border-radius: 50%;
-    background-color: orangered;
+    background-color: cornflowerblue;
   }
   73.6842105263% {
     transform: translateX(46vw) translateY(-28vh) scale(0.33);
