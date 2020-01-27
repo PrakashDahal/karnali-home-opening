@@ -1,20 +1,83 @@
+$orange: #ff8806;
+$green: #025026;
 .container {
   text-align: center;
   width: 100%;
-  padding: 20px;
-  margin: auto;
+  height: 100%;
+  padding-top: 50px;
 
-  h1,
-  h2 {
-    color: maroon;
-    font-size: 5em;
+  .logo {
+    width: 250px;
   }
 
-  h2 {
-    color: rgb(146, 12, 12);
+  h3,
+  h4 {
+    color: $green;
     font-size: 4em;
+    margin-block-start: 0em;
+    margin-block-end: 0.2em;
+  }
+
+  h4 {
+    color: $orange;
+    font-size: 3em;
   }
   p {
+    font-size: 1.8em;
+    font-family: "Times New Roman, Times, serif";
+    color: #333;
+    font-weight: bold;
+  }
+
+  span {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
     font-size: 1.5em;
+    color: $orange;
+    font-weight: bold;
+  }
+  .flex-container {
+    margin: auto;
+    height: 50%;
+
+    .right-side {
+      text-align: left;
+    }
+    .middle-side {
+      text-align: left;
+    }
+    .left-side {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    h3 {
+      font-size: 3em;
+    }
+
+    h4 {
+      font-size: 2em;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    .flex-container {
+      .right-side,
+      .middle-side {
+        text-align: center;
+      }
+      .right-side {
+        margin-top: 300px;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 300px;
   }
 }

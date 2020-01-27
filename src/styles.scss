@@ -1,3 +1,31 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$karnali-home-opening-primary: mat-palette($mat-indigo);
+$karnali-home-opening-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$karnali-home-opening-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$karnali-home-opening-theme: mat-light-theme($karnali-home-opening-primary, $karnali-home-opening-accent, $karnali-home-opening-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($karnali-home-opening-theme);
+
 html,
 body {
   height: 100%;
@@ -5,7 +33,7 @@ body {
 
 body {
   // background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
-  background-color: gray;
+  background-color: ghostwhite;
   background-size: cover;
 }
 
@@ -13,8 +41,8 @@ body {
   position: fixed;
   left: 50%;
   top: 50%;
-  width: 0.6vw;
-  height: 0.6vw;
+  width: 1vw;
+  height: 1vw;
   margin: -0.2vw 0 0 9.8vw;
   animation: ease 200s alternate infinite;
   pointer-events: none;
@@ -1239,3 +1267,6 @@ body {
     box-shadow: 0 0 2vw 0.4vw yellow;
   }
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
