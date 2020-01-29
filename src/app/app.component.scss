@@ -61,6 +61,10 @@ $green: #025026;
 }
 
 @media (max-width: 1300px) {
+  .firefly {
+    width: 1.8vw;
+    height: 1.8vw;
+  }
   .container {
     margin-top: 40px;
     .flex-container {
@@ -79,6 +83,10 @@ $green: #025026;
   }
 
   @media (max-width: 800px) {
+    .firefly {
+      width: 2.8vw;
+      height: 2.8vw;
+    }
     .container {
       margin-top: 20px;
       h3 {
@@ -110,6 +118,11 @@ $green: #025026;
   }
 
   @media (max-width: 572px) {
+    .firefly {
+      width: 2.8vw;
+      height: 2.8vw;
+    }
+
     .container {
       margin-top: 5px;
 
